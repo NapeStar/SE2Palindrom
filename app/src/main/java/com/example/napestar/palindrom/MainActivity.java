@@ -37,7 +37,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String s = stringText.getText().toString();
-                String srev ="";
 
                 if (s.isEmpty()) {
                     textViewResult.setText("Sie haben nichts eingegeben.");
