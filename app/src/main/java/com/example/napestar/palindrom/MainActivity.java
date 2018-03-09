@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 String srev ="";
 
                 if (s.isEmpty()) {
-                    textViewResult.setText("keine Eingabe");
+                    textViewResult.setText("Sie haben nichts eingegeben.");
                     return;
                 }
                 if (s.length()<5) {
